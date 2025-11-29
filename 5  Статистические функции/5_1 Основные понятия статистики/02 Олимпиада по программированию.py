@@ -22,7 +22,7 @@ grades = np.array([[3, 3, 1, 3, 0],
                    [2, 2, 3, 3, 0],
                    [4, 0, 4, 4, 2]])
 
-w = [int(input()) for _ in range(5)]
+w = np.array(open(0).readlines(), int)
 w = np.array(w)
 res = np.average(grades, 1, w)
 print(np.round(res, 2))
