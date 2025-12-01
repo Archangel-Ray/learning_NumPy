@@ -12,5 +12,5 @@
 import numpy as np
 
 answer = np.array([2.47, 1.55, 2.97, 1.24, 2.05])
-student_result = np.array([2.469, 1.548, 2.9635, 1.235, 2.053])  # list(map(float, input().split()))
+student_result = np.array([2.469, 1.548, 2.9635, 1.235, 2.053])  # np.array(input().split(), float)
 print(np.allclose(answer, student_result, atol=0.01))
